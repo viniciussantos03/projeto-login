@@ -5,3 +5,37 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+:root {
+    --cor-primaria: #49a09d;
+    --cor-secundaria: #5f2c82;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-secundaria);
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+#imagem img {
+    width: 50vw;
+    height: 25vh;
+    border-radius: 10px 10px 0px 0px;
+}
