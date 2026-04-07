@@ -19,6 +19,7 @@
 
 html, body {
     position: relative;
+    max-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-secundaria);
 }
