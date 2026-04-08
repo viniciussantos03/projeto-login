@@ -39,6 +39,7 @@ main {
     width: 60vw;
     height: 25vh;
     border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.473);
 }
 
 #formulario h1 {
@@ -67,7 +68,7 @@ p.email, p.senha {
     background-color: #60bdba;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
-    width: 42vw;
+    width: 42.5vw;
     height: 40px;
     padding: 5px;
 }
