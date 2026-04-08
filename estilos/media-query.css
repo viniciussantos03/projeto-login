@@ -82,6 +82,7 @@ Grande telas: acima de 1201px
 
     main {
         width: 50vw;
+        height: 32vh;
         transform: translate(-65%, -50%);
         border-radius: 20px 0px 0px 20px;
     }
